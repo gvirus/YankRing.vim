@@ -240,6 +240,8 @@ if !exists('g:yankring_manual_clipboard_check')
             " the FocusGained event does not fire in console mode.
             let g:yankring_manual_clipboard_check = 1
         endif
+    else
+        let g:yankring_manual_clipboard_check = 0
     endif
 endif
 
